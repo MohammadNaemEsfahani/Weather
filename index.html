@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="input" id="input">
+      <input placeholder="Enter your location" id="txt"> 
+      <button id="btn">GO</button>
+    </div>
+    <p  id="error" >There is an error in the text</p>
+    
+    <div class="container">
+        <div class="content1">              
+              <h1 id="cityName">CityName</h1>
+              <h2 id="country">Country</h2>
+              <h2 id="temp">0°C</h2>
+               <div class="feels">
+                <h3>feels like </h4>
+                <h4 id="fells-like">0°C</h4>
+               </div>
+               <div class="temp-f">
+                 <h3>temp F</h4>
+                 <h4 id="temp-f">0°F</h4>
+               </div>
+            </div>
+            <div class="content2">
+             <img src="https://cdn.weatherapi.com/weather/64x64/day/116.png" alt="icon">
+              <h3 id="icon-txt">discription</h4>
+              <h4 id="date">data</h4>
+            </div>
+    </div>
+    <div class="loader-overlay">
+      <span class="loader"></span>
+    </div>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
